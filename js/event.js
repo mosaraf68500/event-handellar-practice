@@ -1,1 +1,3 @@
-console.log("i am connected");
+function makeYellow(){
+    document.body.style.backgroundColor="yellow";
+}
