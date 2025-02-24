@@ -7,7 +7,13 @@ function makeRed(){
 }
 
 
-function make(){
-    const btn=document.getElementById('btn');
-    btn.onclick='cl'
+
+
+document.getElementById('blue').onclick=function blue(){
+    document.body.style.backgroundColor='blue';
 }
+
+
+document.getElementById('green').addEventListener('mouseout', function green(){
+    document.body.style.backgroundColor='green';
+})
